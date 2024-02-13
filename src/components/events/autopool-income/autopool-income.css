@@ -1,0 +1,55 @@
+.PoolIncome-autopool  {
+  padding: 20px;
+  background-color: #325eee;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 100px); /* Adjust as needed */
+  overflow: hidden;
+}
+
+.PoolIncome-autopool  h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  color: #08f074;
+}
+
+.PoolIncome-autopool  .table-container {
+  flex: 1; /* Allow the table container to grow and fill the remaining space */
+  overflow-y: auto;
+}
+
+.PoolIncome-autopool  table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.PoolIncome-autopool  th {
+  background-color: #394465;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+.PoolIncome-autopool  td {
+  background-color: #1e2da1;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.PoolIncome-autopool  .scrollable-column {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.transaction-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.transaction-link:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
