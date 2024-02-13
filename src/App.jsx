@@ -1,8 +1,7 @@
-import React from "react";
-import "./App.scss";
-import AppRoutes from "./AppRoutes";
+import './App.css';
+import AppRoutes from './AppRoutes';
 
-const App = () => {
+function App() {
   return (
     <div className="container-scroller ">
       <div className="container-fluid page-body-wrapper">
@@ -14,6 +13,6 @@ const App = () => {
       </div>
     </div>
   );
-};
+}
 
 export default App;
